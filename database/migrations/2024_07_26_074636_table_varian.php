@@ -20,6 +20,6 @@ return new class extends Migration
     
     public function down(): void
     {
-        Schema::dropIfExist("parasit.varian");
+        Schema::dropIfExists("parasit.varian");
     }
 };
